@@ -1,11 +1,11 @@
 # Site settings
 author: Anthony Mai
-title: 
+title: Learning to Code
 header-img: img/home-bg.png
 email: anthony.mai530@gmail.com
 copyright_name: Anthony Mai
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Online Coding Course
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  antimonysayz
