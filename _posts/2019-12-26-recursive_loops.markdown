@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Recursive Loops"
-date:       2019-12-27 01:02:26 +0000
+date:       2019-12-26 20:02:27 -0500
 permalink:  recursive_loops
 ---
 
@@ -51,9 +51,9 @@ factorial(1) = 1
 
 So:
 
-Factorial(2) = 2*1 
-Factorial(3) = 3*2*1
-Factorial(4) = 4*3*2*1
+Factorial(2) = 2 * 1 
+Factorial(3) = 3 * 2 * 1 
+Factorial(4) = 4 * 3 * 2* 1
 
 
 
