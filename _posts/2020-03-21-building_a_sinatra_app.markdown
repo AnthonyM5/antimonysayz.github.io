@@ -7,9 +7,9 @@ permalink:  building_a_sinatra_app
 
 Recommended Reading Materials:
 
-Validations: 
-https://www.tutorialspoint.com/ruby-on-rails/rails-input-validations.htm
-ActiveRecord Methods: https://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-add_column
+Validations: [https://www.tutorialspoint.com/ruby-on-rails/rails-input-validations.htm](http://)
+
+ActiveRecord Methods: [https://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-add_column](http://)
 
 
 
