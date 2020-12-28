@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React Routing"
-date:       2020-12-28 21:59:47 +0000
+date:       2020-12-28 16:59:47 -0500
 permalink:  react_routing
 ---
 
@@ -16,7 +16,7 @@ npm install react-router-dom
 ```
 
 The router for our app consists of three parts: 
-* Router:
+## Router
 ```
 import { BrowserRouter as Router } from 'react-router-dom'
 ```
@@ -31,11 +31,12 @@ This component is ideally wrapped around your main App component:
       </Provider>
     </Router>
 ```
-* Switch/Route
+## Switch/Route
 ```
 import { Switch, Route } from 'react-router-dom';
 ```
-Much like the switch case in Javascript the switch component returns the route that matches the location being passed in:
+Much like the switch case in Javascript the switch component returns the route that matches the location being passed in
+
 ```
 <Switch>
           <Route path="/meals/:id" component={MealsPage} />
@@ -48,8 +49,8 @@ Much like the switch case in Javascript the switch component returns the route t
 
 It is important to put your most specifc routes first, as the switch route will render the first route that matches the location being hit.
 
-* Links
-Lastly our app utilizes the link component, which as it's name suggests provides us a link component that can link to a plain string, or an object:
+## Links
+Lastly our app utilizes the link component, which as it's name suggests provides us a link component that can link to a plain string, or an object
 
 ```
 <Link to={
